@@ -22,23 +22,23 @@ export default function Header() {
                     <img src={menuIcon} alt="Menu" className="w-[41px]" />
                 </button>
                 <div className="hidden md:flex gap-5 font-normal">
-                    <Link to="/booking" className="hover:underline">Rezervă Bilet</Link>
-                    <Link to="/" className="hover:underline">Destinații</Link>
-                    <Link to="/" className="hover:underline">Colet la cheie</Link>
-                    <Link to="/services" className="hover:underline">Servicii oferite</Link>
-                    <Link to="/" className="hover:underline">Informații utile</Link>
-                    <Link to="/" className="hover:underline">Contacte</Link>
+                    <Link to="/booking" className="hover:text-accent hover:font-medium">Rezervă Bilet</Link>
+                    <Link to="/" className="hover:text-accent hover:font-medium">Destinații</Link>
+                    <Link to="/" className="hover:text-accent hover:font-medium">Colet la cheie</Link>
+                    <Link to="/services" className="hover:text-accent hover:font-medium">Servicii oferite</Link>
+                    <Link to="/" className="hover:text-accent hover:font-medium">Informații utile</Link>
+                    <Link to="/" className="hover:text-accent hover:font-medium">Contacte</Link>
                 </div>
             </div>
 
             <div className={`md:hidden flex flex-col gap-4 p-5 bg-gray-100 rounded-lg transition-all duration-300 ${menuOpen ? 'block' : 'hidden'}`}>
                 <div className="flex flex-col gap-2">
-                    <Link to="/booking" className="hover:underline">Rezervă Bilet</Link>
-                    <Link to="/" className="hover:underline">Destinații</Link>
-                    <Link to="/" className="hover:underline">Colet la cheie</Link>
-                    <Link to="/services" className="hover:underline">Servicii oferite</Link>
-                    <Link to="/" className="hover:underline">Informații utile</Link>
-                    <Link to="/" className="hover:underline">Contacte</Link>
+                    <Link to="/booking" className="hover:text-accent hover:font-medium">Rezervă Bilet</Link>
+                    <Link to="/" className="hover:text-accent hover:font-medium">Destinații</Link>
+                    <Link to="/" className="hover:text-accent hover:font-medium">Colet la cheie</Link>
+                    <Link to="/services" className="hover:text-accent hover:font-medium">Servicii oferite</Link>
+                    <Link to="/" className="hover:text-accent hover:font-medium">Informații utile</Link>
+                    <Link to="/" className="hover:text-accent hover:font-medium">Contacte</Link>
                 </div>
                 <div className="flex flex-col gap-4 mt-4">
                     <div className="text-lg font-medium text-center">+373 79 000 000</div>
