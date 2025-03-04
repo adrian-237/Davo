@@ -4,6 +4,7 @@ import TransportDestination from "../Components/transport-destination.jsx";
 
 import TransportOptions from "../Components/transport-options.jsx";
 import SocialMediaCard from "../Components/social-media-card.jsx";
+import Footer from "../Components/footer.jsx";
 
 export default function Services() {
     const transportData = [
@@ -73,15 +74,15 @@ export default function Services() {
     const socialCards = [
         {
             id: 1,
-            image: './public/Social/stori1.png'
+            image: './Social/stori1.png'
         },
         {
             id: 2,
-            image: './public/Social/stori2.png'
+            image: './Social/stori2.png'
         },
         {
             id: 3,
-            image: './public/Social/stori3.png'
+            image: './Social/stori3.png'
         }
     ]
 
@@ -130,6 +131,8 @@ export default function Services() {
             </div>
 
             </section>
+            <Footer/>
+
         </>
     );
 }
