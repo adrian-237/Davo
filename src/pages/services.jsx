@@ -3,6 +3,7 @@ import Header from '../Components/header.jsx';
 import TransportDestination from "../Components/transport-destination.jsx";
 
 import TransportOptions from "../Components/transport-options.jsx";
+import SocialMediaCard from "../Components/social-media-card.jsx";
 
 export default function Services() {
     const transportData = [
@@ -68,6 +69,22 @@ export default function Services() {
             image: './Services/image3.png',
         }
     ];
+
+    const socialCards = [
+        {
+            id: 1,
+            image: './public/Social/stori1.png'
+        },
+        {
+            id: 2,
+            image: './public/Social/stori2.png'
+        },
+        {
+            id: 3,
+            image: './public/Social/stori3.png'
+        }
+    ]
+
     return (
         <>
             <Header />
@@ -100,10 +117,18 @@ export default function Services() {
                         description={service.description}
                     />
                 ))}
-
-                <div className="flex">
-
+                <div className="Social py-20">
+                <h2 className="font-body font-bold uppercase text-4xl">Social davo group</h2>
+                <div className="flex gap-4 overflow-x-auto py-4">
+                    {socialCards.map(card => (
+                        <SocialMediaCard
+                            key={card.id}
+                            image={card.image}
+                        />
+                    ))}
                 </div>
+            </div>
+
             </section>
         </>
     );
