@@ -8,3 +8,20 @@
     --color-primary: #042E58;
     --color-accent: #C9072C;
 }
+
+.custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #042e58 #d0d0d0;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #d0d0d0;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #042e58;
+}
