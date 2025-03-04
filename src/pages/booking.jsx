@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../Components/header.jsx';
 import TransportDestination from "../Components/transport-destination.jsx";
+import Footer from "../Components/footer.jsx";
 
 export default function Booking() {
 
@@ -57,7 +58,7 @@ export default function Booking() {
 
 
 
-                <div className="flex gap-[42px] overflow-x-auto scroll-smooth py-4">
+                <div className="flex gap-[42px] overflow-x-auto scroll-smooth py-10">
                     {transportData.map((data, index) => (
                         <div className="flex-shrink-0 w-[300px]">
                             <TransportDestination
@@ -70,6 +71,7 @@ export default function Booking() {
                     ))}
                 </div>
             </section>
+            <Footer />
         </div>
     );
 }

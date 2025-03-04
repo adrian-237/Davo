@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 import logo from '../assets/LOGO.svg';
 import menuIcon from '../assets/iconamoon_menu-burger-horizontal-bold.png';
 import arrow from '../assets/Component 1.svg';
-import location from '../assets/location.svg';
-import telegram from '../assets/telegram.svg';
-import whatsapp from '../assets/whatsapp.svg';
-import viber from '../assets/viber.svg';
-import facebook from '../assets/facebook.svg';
-import instagram from '../assets/instagram.svg';
-import tiktok from '../assets/tiktok.svg';
+import Location from '../assets/location.jsx';
+import Telegram from '../assets/telegram.jsx';
+import Whatsapp from '../assets/whatsapp.jsx';
+import Viber from '../assets/viber.jsx';
+import Facebook from '../assets/facebook.jsx';
+import Instagram from '../assets/instagram.jsx';
+import Tiktok from '../assets/tiktok.jsx';
 
 export default function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -46,13 +46,13 @@ export default function Header() {
                         <div className="flex items-center">
                             EN <img src={arrow} alt="Lang" className="w-[28px] ml-2" />
                         </div>
-                        <img src={location} alt="Location" className="w-6" />
-                        <img src={telegram} alt="Telegram" className="w-6" />
-                        <img src={whatsapp} alt="WhatsApp" className="w-6" />
-                        <img src={viber} alt="Viber" className="w-6" />
-                        <img src={facebook} alt="Facebook" className="w-6" />
-                        <img src={instagram} alt="Instagram" className="w-6" />
-                        <img src={tiktok} alt="TikTok" className="w-6" />
+                        <Location color="#042E58" />
+                        <Telegram color="#042E58" />
+                        <Whatsapp color="#042E58" />
+                        <Viber color="#042E58" />
+                        <Facebook color="#042E58" />
+                        <Instagram color="#042E58" />
+                        <Tiktok color="#042E58" />
                     </div>
                 </div>
             </div>
@@ -63,13 +63,13 @@ export default function Header() {
                     <div className="flex items-center">
                         EN <img src={arrow} alt="Lang" className="w-[28px] ml-2" />
                     </div>
-                    <img src={location} alt="Location" />
-                    <img src={telegram} alt="Telegram" />
-                    <img src={whatsapp} alt="WhatsApp" />
-                    <img src={viber} alt="Viber" />
-                    <img src={facebook} alt="Facebook" />
-                    <img src={instagram} alt="Instagram" />
-                    <img src={tiktok} alt="TikTok" />
+                    <Location color="#042E58" />
+                    <Telegram color="#042E58" />
+                    <Whatsapp color="#042E58" />
+                    <Viber color="#042E58" />
+                    <Facebook color="#042E58" />
+                    <Instagram color="#042E58" />
+                    <Tiktok color="#042E58" />
                 </div>
             </div>
         </nav>
