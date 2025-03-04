@@ -43,8 +43,12 @@ export default function Header() {
                 <div className="flex flex-col gap-4 mt-4">
                     <div className="text-lg font-medium text-center">+373 79 000 000</div>
                     <div className="flex flex-wrap justify-center gap-4">
-                        <div className="flex items-center">
-                            EN <img src={arrow} alt="Lang" className="w-[28px] ml-2" />
+                        <div className="">
+                            <select>
+                                <option value="en">EN</option>
+                                <option value="ro">RO</option>
+                                <option value="ru">RU</option>
+                            </select>
                         </div>
                         <Location color="#042E58" />
                         <Telegram color="#042E58" />
@@ -61,7 +65,11 @@ export default function Header() {
                 <div className="text-lg font-medium">+373 79 000 000</div>
                 <div className="flex gap-[35px] items-center">
                     <div className="flex items-center">
-                        EN <img src={arrow} alt="Lang" className="w-[28px] ml-2" />
+                        <select>
+                            <option value="en">EN</option>
+                            <option value="ro">RO</option>
+                            <option value="ru">RU</option>
+                        </select>
                     </div>
                     <Location color="#042E58" />
                     <Telegram color="#042E58" />

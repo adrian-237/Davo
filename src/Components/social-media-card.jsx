@@ -3,7 +3,7 @@ import PlayIcon from '../assets/play.svg';
 
 function SocialMediaCard({ image }) {
     return (
-        <div className="relative w-full sm:w-[278px] lg:w-[541px] h-[400px] sm:h-[400px] lg:h-[716px] rounded-[10px]">
+        <div className="relative w-full min-w-[278px] sm:w-[278px] lg:w-[541px] h-[400px] sm:h-[400px] lg:h-[716px] rounded-[10px]">
             <img
                 src={image}
                 className="absolute inset-0 w-full h-full object-cover"

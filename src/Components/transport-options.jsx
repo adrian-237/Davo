@@ -12,7 +12,7 @@ class TransportOptions extends React.Component {
                         className="w-full h-56 object-cover col-span-1"
                     />
                     <div className="p-6 col-span-1">
-                        <h1 className="text-2xl font-bold text-blue-900 mb-4 uppercase text-5xl lg:6xl font-bold font-body">
+                        <h1 className="text-2xl font-bold text-blue-900 mb-4 uppercase text-4xl lg:6xl font-bold font-body">
                             {title}
                         </h1>
                     </div>

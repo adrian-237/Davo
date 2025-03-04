@@ -120,7 +120,7 @@ export default function Services() {
                 ))}
                 <div className="Social py-20">
                 <h2 className="font-body font-bold uppercase text-4xl">Social davo group</h2>
-                <div className="flex gap-4 overflow-x-auto py-4">
+                <div className="flex w-full gap-4 overflow-x-auto py-4">
                     {socialCards.map(card => (
                         <SocialMediaCard
                             key={card.id}
